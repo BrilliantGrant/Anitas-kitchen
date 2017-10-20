@@ -2,7 +2,7 @@ section#one{
 	background-image: url("../assets/backgrounds/landing.jpg");
 background-position: center;
 padding: 20px;
-min-height: 300px; 
+min-height: 300px;
 }
 div#nav{
 	width :5;
@@ -13,3 +13,6 @@ body{
 	padding: 0px;
 font-family: 'Quicksand', sans-serif;
 }
+
+
+
