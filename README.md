@@ -9,7 +9,7 @@
    This project of Anita's kitchen uses the JavaScript,the bootstap framework also the jquery.
 
 ## Installation Requirements
- * open index.html file with browser
+ * Open index.html file with browser
  * Atleast have a computer or a laptop
  * Have an internet connection
  * A README.md file

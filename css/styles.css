@@ -16,3 +16,11 @@ font-family: 'Quicksand', sans-serif;
 
 
 
+.box-2{
+	background-image: url("../assets/backgrounds/foodsBg.jpg");
+	background-position: center;
+	background-size: : 200px;
+	min-height: 30px;
+	padding: 20px;
+
+}
