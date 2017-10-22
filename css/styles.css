@@ -22,23 +22,29 @@ font-family: 'Quicksand', sans-serif;
 	background-size: : 200px;
 	min-height: 30px;
 	padding: 20px;
+	min-height: 500px;
 
 
 }
 
 .box-1{
-	background-image: ("../assets/backgrounds/subscribe.jpg");
+	background-image: url("../assets/backgrounds/subscribe.jpg");
+	background-size: 500px;
+	background-position: center;
+	padding: 20px;
+	min-height: 200px;
+
 }
 
-#box-3{
+.clearfix {
 	
 	overflow: auto;
-	margin: 25px;
+	
 }
 
-#box-4{
+.clearfix {
 
-	padding: 25px;
+	
 	overflow: auto;
 
 }
