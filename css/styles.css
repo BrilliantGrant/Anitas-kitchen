@@ -23,4 +23,26 @@ font-family: 'Quicksand', sans-serif;
 	min-height: 30px;
 	padding: 20px;
 
+
+}
+
+.box-1{
+	background-image: ("../assets/backgrounds/subscribe.jpg");
+}
+
+#box-3{
+	
+	overflow: auto;
+	margin: 25px;
+}
+
+#box-4{
+
+	padding: 25px;
+	overflow: auto;
+
+}
+
+#box-5{
+	margin: auto;
 }
