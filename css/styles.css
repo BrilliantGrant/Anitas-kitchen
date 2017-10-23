@@ -40,6 +40,9 @@ font-family: 'Quicksand', sans-serif;
 .box-4{
 	
 	overflow: auto;
+	border-style: 25px transparent;
+	padding: 25px;
+	margin: 25px;
 	
 }
 
@@ -65,4 +68,5 @@ font-family: 'Quicksand', sans-serif;
 	min-height: 350px;
 	color: white;
 	text-align: center;
+	font-family: arvo;
 }
