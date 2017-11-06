@@ -1,141 +1,235 @@
 <!DOCTYPE html>
 <html>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
 <head>
-	<link rel="bootstap" href="css/bootstap.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<title></title>
+
+  <meta charset="utf-8">
+  <title>Anitta's Kitchen</title>
+  <meta name="description" content="kitchen Website">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
-	<section id="one">
-	<div class="row">
-	<div id="nav">
-	<center>
-	<img src="assets/logoBig.png" alt="">
-	<p style="margin-left:50px;font-size:25px; color:#fff;">	
-	 We Provide The Best Food <br>At The <strong>Right Price</strong></p>
-     </center>
-	</section> 
+  <div class="headernav">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
 
+  <img class="bg-image" src="assets/backgrounds/landing.jpg">
+  <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">events</a>
+    <a href="#">Contact</a>
+  </div>
 </div>
 
-</div>  
-<div class="row" id="two">
-	<div class="row1">
-		
-
-		<div id="happyhour">Happy Hour</div>
-		<div id="partytime">Party Time</div>
-		<div id="breakfast">Breakfast</div>
-		<div id="dinner">Dinner</div>
-		<div id="lunch">lunch</div>
-	</div>
+  <div class="middle">
+    <img src="assets/logoBig.png" alt="logo" class="text-center">
+    <br/>
+    <h1>We Provide The Best Food
+      <h1>
+        <h1>At the<strong> Right Price<strong></h1>
+  </div>
+</div>
 
 
+  <div class="row" id="two">
+  <div class="row1">
+    
 
-			
+    <div id="happyhour">Happy Hour</div>
+    <div id="partytime">Party Time</div>
+    <div id="breakfast">Breakfast</div>
+    <div id="dinner">Dinner</div>
+    <div id="lunch">lunch</div>
+  </div>
+</div>
 
 
-
+<br></br>
 <div class="container">
-	<div class="row">
-		<div class="col-sm-6">
-			<img src="assets/fastFood1.jpg"><br>
-	<img src="assets/fastFood2.jpg" style="float: left">
-		</div>
-		
-			<h1>Fast Food</h1> 
-	<h2>you'll love delicious fast food</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident</p>
-	<p>VIEW GALLERY</p>
-		
-	
-</div>
-	
-	
-	<div class="container" id="three">
-	
-	
-</div>
-</div>
-
-<div class="container">
-	<div class="row">
-	<img src="assets/drink2.jpg" style="float: right;" class="img-thumbnail">
-	<img src="assets/drink1.jpg" style="float: right" class="thumbnail">
-	<div class="box-6">
-	<h1>Drinks</h1>
-	<h3>We also produce delicious drinks</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident</p>
-</div>
-</div>
-<div>
-
-		<div class="row">
-		<div class="box-2">
-<img src="assets/fastfood/chickenBurger.jpg">
-	<img src="assets/fastfood/beefBurger.jpg">
-	<img src="assets/fastfood/chickenPizza.jpg">
-</div>
-</div>
-
-
-<div class="container">
-	<div class="row" style="float: left;">
-	<div class="col-sm-5">
-	<h1>Our Happy Customers</h1>
-	<h3>George Richard</h3>
-	<p>Great food!menu is awesome,there foods are not only great but also in the right price.i'll higly recommend them :)</p>
-
-
-		<img src="assets/customers/p1.png">
-		<img src="assets/customers/p2.png">
-		<img src="assets/customers/p3.png">
-	</div>
-</div>
-</div>
-
+<div id="fastfood">
 <div class="row">
-	<div class="col-sm-6">
-		<h1>About Menu</h1>
-		<p> We are a little team of 7 members.Ut wisi enim ad minim veniam,quis nos trudexer ci tation ullacorper suscipit lob ortis nisil ut aaliquip ex commodo conse quat.Duisau tem vel eum iriure dolor in.</p>
-		
-	</div>
+  <div class="col-md-6">
+    <div class="images">
+      <img src="assets/fastFood1.jpg" >
+      <img src="assets/fastFood2.jpg" >
+    </div>
+    </div>
+  <div class="col-md-6">
+        <h2>Fast Food</h2>
+        <h3>You'll love our delicous fast food</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         <button class="btn btn-outline-primary">VIEW GALLERY &#8594;</button>
+      </div>
+      </div>
+    </div>
+    <div class="container">
+<div id="Drinks">
+    <div class="row">
+
+      <div class="col-md-6">
+        <h2>Drinks</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button class="btn btn-outline-primary">VIEW GALLERY &#8594;</button>
+      </div>
+      <div class="col-md-6">
+        <div class="images">
+        <img src="assets/drink1.jpg">
+        <img src="assets/drink2.jpg">
+      </div>
+</div>
+</div>
+      </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="row" id="ten">
+
+          <div class="row" id="divcover">
+          <div  class="bs-example bs-example-tabs " data-example-id="togglable-tabs"
+          style="background-color: #fff;">
+            <ul class="nav nav-tabs" id="myTabs" role="tablist" style="background-color: #c5c2bd; width:100%;">
+              <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Fast Foods</a></li>
+              <li role="presentation" class=""><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Drinks</a></li>
+                <li role="presentation" class=""><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Chicken</a></li>
+                 <li role="presentation" class=""><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Rice</a></li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade active in" role="tabpanel" id="home" aria-labelledby="home-tab">
+
+                    <div class="row"
+                    style="padding: 20px;padding-right: 35px;padding-left: 35px;">
+                      <span id="spanleft"><</span>
+                      <div class="col-md-4">
+
+                        <div class="dee">
+                          <img style="margin-bottom: 10px;" src="assets/fastfood/beefBurger.jpg" alt="">
+                          <p>Chicken Burger</p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="dee">
+                          <img style="margin-bottom: 10px;" src="assets/fastfood/chickenPizza.jpg" alt="">
+                          <p>Beef Burger</p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="dee">
+                          <img style="margin-bottom: 10px;" src="assets/fastfood/beefBurger.jpg" alt="">
+                          <p>Chicken Pizza</p>
+                        </div>
+
+                      </div>
+                      <span id="spanright"> > </span>
+
+                    </div>
+                  </div>
+      <!--            <div class="tab-pane fade" role="tabpanel" id="profile" aria-labelledby="profile-tab">
+                  </div>  -->
+
+                </div>
+              </div>
+
+
+
+    </div>
+l  <div class="row well">
+    <div class="col-md-8 text-center">
+
+      <br></br><br></br>
+      <div>
+
+<div id="customersection">
+
+</div>
+      <h3 style= "color: #FE642E;">Our Happy Customers</h3>
+
+      <h4>George Richard</h4>
+      <p>Great food Menu is awesome, there foods are not only great but also in the right price. I'll highly recommend them.
+      </p>
+
+      <span class="glyphicon glyphicon-chavron-left"></span>
+      <div class="row">
+              <div class="col-md-6 col-md-offset-3">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="assets/customers/p1.png" alt="">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/customers/p2.png" alt="">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/customers/p3.png" alt="">
+                  </div>
+                </div>
+              </div>
+  </div>
+      <span class="glyphicon glyphicon-chavron-right"></span>
+</div>
+    </div>
+    <br></br><br></br>
+    <div class="col-md-4 text-center">
+
+      <h2 style="color: #FE642E;">About Menu</h2>
+      <p>
+        We are menu  little team of 7 members.consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
 </div>
 
-
-<div class="box-1">
-	<p>Get our daily food items delivered to your email</p>
-		<p>your Email Subscribe</p>
-	</div>
-
-		<div class="box-3">
-		<img src="assets/footerlogos/logo_white.png"
-		<h1>MENU</h1>
-		<p>Thats What We Are</p>
-		<p>2016 menu restaurant</p>	
-	</div>
-
+<!-- close -->
+</div>
+<div class="row" style="height:300px;">
 
 </div>
 </div>
+<br></br><br></br>
+<!-- open -->
+<br></br>
+<div>
+<div class="footer">
+<div class="email_panel">
+  <h3 class="txt-white" style="color: white">Get our daily food items delivered to your email</h3>
+  <form class="form-inline">
+    <div class="form-group">
+      <input type="text" class="form-control">
+      <button class="btn btn-warning" style="color: #FE642E;">subscribe</button>
+    </div>
+  </form>
+</div>
+<div class="footer-menu">
+  <h2 class="txt-white"><img src="assets/footerlogos/logo_white.png" alt="" style="color: white;"> MENU</h2>
+  <p style="color: white;">Thats what we are</p>
+  <div class="social-panel">
+    <img src="assets/footerlogos/facebook.png"  alt="">
+    <img src="assets/footerlogos/twitter.png" alt="">
+    <img src="assets/footerlogos/pinterest.png" alt="">
+  </div>
+  <p style="color: white;">2016 Menu Restaurant</p>
+</div>
+</div>
 
-
-
- <script src="js/query-3.2.1.js"></script>
- <script type="text/javascript" src="js/scripts.js">
-
+<!-- <script type="text/javascript" src="css/jquery-3.2.1.js"></script> -->
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
 </script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+  </script>
 </body>
 </html>

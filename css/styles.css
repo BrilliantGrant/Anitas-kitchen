@@ -1,132 +1,269 @@
-section#one{
-	background-image: url("../assets/backgrounds/landing.jpg");
-background-position: center;
-padding: 20px;
-min-height: 300px;
+.headernav {
+  position: absolute;
+  left: 2%;
 }
-div#nav{
-	width :5;
-}
-
 body{
-	margin: 0px;
-	padding: 0px;
-font-family: 'Quicksand', sans-serif;
+  overflow-x: hidden;
 }
-
-
-
-.box-2{
-	background-image: url("../assets/backgrounds/foodsBg.jpg");
-	background-position: center;
-	background-size: : 100px;
-	min-height: 30px;
-	padding: 20px;
-	min-height: 300px;
-	align-items: center;
-
-
+.one {
+  width: 100% ;
+  height: 500px;
 
 }
 
-.box-1{
-	background-image: url("../assets/backgrounds/subscribe.jpg");
-	min-height: 300px;
-	background-position: center;
-	font-size: 40px;
-	text-align: center;
-
-
-}
-
-.box-4{
-	
-	overflow: auto;
-	border-style: 25px transparent;
-	padding: 25px;
-	margin: 25px;
-	
+.middle {
+  position: absolute;
+  margin-top: 100px;
+  left: 50%;
+  transform: translate(-50%, -160%);
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
 }
 
 .row1:hover #breakfast {
   opacity: 0.5;
 }
 .row1:hover #dinner {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 .row1:hover #lunch {
-	opacity:0.5;
+  opacity:0.5;
 }
 
 .row1 {
-	display: grid;
-	grid-template-columns: 25% 25% 25% 25%; /*Same as 1fr*/
-	grid-template-rows: 50% 50%;
-	height: 200px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%; /*Same as 1fr*/
+  grid-template-rows: 50% 50%;
+  height: 200px;
 }
 
 #happyhour {
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 2;
-	background-color: silver;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: silver;
+  color: black;
+  padding-top: 40px;
+  text-align: center;
 }
 #partytime {
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 2;
-	grid-row-end: 3;
-	background-color: #F15A29;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: #F15A29;
+  color: black;
+  padding-top: 40px;
+  text-align: center;
 
-
-}	
+} 
 #breakfast {
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 1; 
-	grid-row-end: span 3;
-	text-align: center;
-	background-image: url("../assets/foodtop/breakfast.jpg")
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1; 
+  grid-row-end: span 3;
+  text-align: center;
+  background-image: url("../assets/foodtop/breakfast.jpg");
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+
 }
 #dinner{
-	grid-column-start: 3;
-	grid-column-end: 4;
-	grid-row-start: 1;
-	grid-row-end: span 3;
-	text-align: center;
-	background-image: url("../assets/foodtop/dinner.jpg")
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: span 3;
+  text-align: center;
+  background-image: url("../assets/foodtop/dinner.jpg");
+  color: white;
+  text-align: center;
+  padding-top: 80px;
 
 }
 #lunch{
-	grid-column-start: 4;
-	grid-column-end: 5;
-	grid-row-start: 1;
-	grid-row-end: span 3;
-	text-align: center;
-	background-image: url("../assets/foodtop/lunch.jpg")
-}
-.content-box {
-
-	
-	overflow: auto;
-	padding: 5px;
-	border-radius: 4px;
-	
-	border: 1px solid #ddd;
-
-
-
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: span 3;
+  text-align: center;
+  background-image: url("../assets/foodtop/lunch.jpg");
+  color: white;
+  text-align: center;
+  padding-top: 80px;
 }
 
-#box-5{
-	margin: auto;
+.carousel {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-image: url(..assets/backgrounds/foodsBg.jpg);
+  background-attachment: fixed;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.box-3{
-	background-color: #FE642E;
-	min-height: 350px;
-	color: white;
-	text-align: center;
-	font-family: arvo;
+.email_panel {
+  text-align: center;
+  padding: 70px;
+  background-attachment: fixed;
 }
+
+
+.images {
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 20px;
+  box-shadow: 0 0 6px 6px #F2F2F2;
+}
+
+.footer-menu {
+  padding: 20px;
+  background-color: red;
+  text-align: center;
+  background-color: #FE642E;
+  color: white;
+}
+
+.email_panel {
+  text-align: center;
+  background-image: url(../assets/backgrounds/subscribe.jpg);
+  padding: 70px;
+  background-attachment: fixed;
+}
+
+.foodbar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-image: url(../assets/backgrounds/foodsBg.jpg);
+  background-attachment: fixed;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+div#ten{
+  height: 500px;
+  background-image: url("../assets/backgrounds/foodsBg.jpg");
+  padding: 50px;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.nav-tabs>li {
+      float: left;
+      margin-bottom: -1px;
+      width: 25%;
+      text-align: center;
+  }
+  div.dee{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FE642E;
+  }
+  a{
+    border: 0px;
+    font-weight: bold;
+  }
+  span#spanleft{
+        position: absolute;
+    color: red;
+    font-size: 25px;
+    /* top: -5px; */
+    margin-top: 70px;
+    margin-left: -10px;
+  }
+  span#spanright{
+        position: absolute;
+    font-size: 25px;
+    color: red;
+    margin-top: 70px;
+  }
+  div#divcover{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin: 0px auto;
+  }
+#customersection {
+  width: 100%;
+  height: 5px;
+}
+.one {
+  position: absolute;
+  top: 50%;
+  color: white;
+  font-size: 30px;
+  left: 30%;
+  text-decoration: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
